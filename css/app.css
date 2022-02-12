@@ -33,13 +33,13 @@ textarea {
 input:focus,
 textarea:focus {
   outline: none;
-  background: #fff5f9;
+  background: #f5fff8;
 }
 
 button {
   font: inherit;
-  background: #ff0062;
-  border: 1px solid #ff0062;
+  background: teal;
+  border: 1px solid teal;
   cursor: pointer;
   color: white;
   padding: 0.75rem 1rem;
@@ -51,17 +51,17 @@ button:focus {
 
 button:hover,
 button:active {
-  background: #a80041;
-  border-color: #a80041;
+  background: rgb(0, 99, 99);
+  border-color: rgb(0, 99, 99);
 }
 
 .projects {
   margin: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid teal;
 }
 
 .projects header {
-  background: #ff0062;
+  background: teal;
   height: 3.5rem;
   display: flex;
   justify-content: center;
@@ -69,11 +69,11 @@ button:active {
 }
 
 #finished-projects {
-  border-color: #0044ff;
+  border-color: rgb(0, 111, 175);
 }
 
 #finished-projects header {
-  background: #0044ff;
+  background: rgb(0, 111, 175);
 }
 
 .projects h2 {
@@ -94,12 +94,12 @@ button:active {
 }
 
 .projects li h2 {
-  color: #ff0062;
+  color: teal;
   margin: 0.5rem 0;
 }
 
 #finished-projects li h2 {
-  color: #0044ff;
+  color: rgb(0, 111, 175);
 }
 
 .projects li h3 {
@@ -122,6 +122,6 @@ button:active {
 #user-input {
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid #ff0062;
+  border: 1px solid teal;
   background: #f7f7f7;
 }
